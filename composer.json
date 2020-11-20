@@ -1,0 +1,16 @@
+{
+    "name": "tasofen/pagination",
+    "description": "Page navigation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr",
+            "email": "123546.90@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Tasofen\\": "src/"}
+    }
+}
