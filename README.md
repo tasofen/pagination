@@ -17,32 +17,32 @@ echo $pagination->getHtml(7, 20); //currentPage, totalPage
 
 ```html
 <ul class="pagination">
-	<li class="page-item waves-effect">
-		<a href="?page=1" class="page-link">&lt;&lt;</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=6" class="page-link">&lt;</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=5" class="page-link">5</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=6" class="page-link">6</a>
-	</li>
-	<li class="active page-item waves-effect">
-		<a href="?page=7" class="active page-link">7</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=8" class="page-link">8</a>
-	</li><li class="page-item waves-effect">
-		<a href="?page=9" class="page-link">9</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=8" class="page-link">&gt;</a>
-	</li>
-	<li class="page-item waves-effect">
-		<a href="?page=20" class="page-link">&gt;&gt;</a>
-	</li>
+  <li class="page-item waves-effect">
+    <a href="?page=1" class="page-link">&lt;&lt;</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=6" class="page-link">&lt;</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=5" class="page-link">5</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=6" class="page-link">6</a>
+  </li>
+  <li class="active page-item waves-effect">
+    <a href="?page=7" class="active page-link">7</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=8" class="page-link">8</a>
+  </li><li class="page-item waves-effect">
+    <a href="?page=9" class="page-link">9</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=8" class="page-link">&gt;</a>
+  </li>
+  <li class="page-item waves-effect">
+    <a href="?page=20" class="page-link">&gt;&gt;</a>
+  </li>
 </ul>
 ```
 
