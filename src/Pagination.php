@@ -5,7 +5,7 @@ namespace Tasofen;
 class Pagination {
 
     protected $options = [
-        'showPages' => 10,
+        'showPages' => 11,
         'url' => '?page=%s',
 
         'firstText' => '&lt;&lt;',
@@ -51,7 +51,7 @@ class Pagination {
     {
         $this->options = array_merge($this->options, $this->templates['default'], $options);
 
-        if ($options['templateName']) {
+        if (isset($options['templateName'])) {
             $this->setTemplate($options['templateName']);
         }
     }
@@ -153,10 +153,6 @@ class Pagination {
                 $html .= '</'.$this->options['itemWrap'].'>';
             }
         }
-
-
-
-
 
         $html .= '</'.$this->options['listTag'].'>';
         return $html;

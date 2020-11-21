@@ -1,6 +1,7 @@
 {
     "name": "tasofen/pagination",
     "description": "Page navigation",
+    "keywords": ["pagination", "bootstrap", "materializecss"],
     "license": "MIT",
     "authors": [
         {
