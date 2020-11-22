@@ -148,7 +148,6 @@ Array
             [text] => &gt;&gt;
             [active] => false
         )
-
 )
 ```
 
